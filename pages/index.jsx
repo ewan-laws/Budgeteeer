@@ -1,4 +1,5 @@
 import { Btn } from "../components/TestStory";
+import { TestStateComponent } from "../components/TestStateComponent";
 
 const Index = () => (
   <div>
@@ -8,6 +9,7 @@ const Index = () => (
       }
     `}</style>
     Hello world <Btn label="test" />
+    <TestStateComponent />
   </div>
 );
 

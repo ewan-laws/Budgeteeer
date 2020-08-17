@@ -10,11 +10,17 @@ CLOCK: [2020-08-17 Mon 11:49]--[2020-08-17 Mon 11:54] =>  0:05
 ***** [X] init git
 ***** [X] create github repo
 ***** [X] initial commit & push
-**** [ ] setup storybook
 :LOGBOOK:
 CLOCK: [2020-08-17 Mon 15:26]--[2020-08-17 Mon 15:33] =>  0:07
+:END:
+**** [X] setup storybook
+:LOGBOOK:
 CLOCK: [2020-08-17 Mon 14:24]--[2020-08-17 Mon 15:15] =>  0:51
 CLOCK: [2020-08-17 Mon 12:23]--[2020-08-17 Mon 12:56] =>  0:33
 :END:
 **** [ ] Setup easy-peasy
+:LOGBOOK:
+CLOCK: [2020-08-17 Mon 20:34]
+CLOCK: [2020-08-17 Mon 17:08]--[2020-08-17 Mon 17:18] =>  0:10
+:END:
 **** [ ] add `app/index.jsx` folder and file, add index for root page that simply redirects to `/app`
