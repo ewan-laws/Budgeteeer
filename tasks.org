@@ -1,0 +1,12 @@
+
+* Project Managment
+** [ ] MVP
+*** [ ] Project setup
+**** [ ] Initialise project
+***** [ ] Create nextjs project
+***** [ ] init git
+***** [ ] create github repo
+***** [ ] initial commit & push
+*** [ ] setup storybook
+*** [ ] Setup easy-peasy
+*** [ ] add `app/index.jsx` folder and file, add index for root page that simply redirects to `/app`
