@@ -2,11 +2,18 @@
 * Project Managment
 ** [ ] MVP
 *** [ ] Project setup
-**** [ ] Initialise project
-***** [ ] Create nextjs project
-***** [ ] init git
-***** [ ] create github repo
-***** [ ] initial commit & push
-*** [ ] setup storybook
-*** [ ] Setup easy-peasy
-*** [ ] add `app/index.jsx` folder and file, add index for root page that simply redirects to `/app`
+**** [X] Initialise project
+:LOGBOOK:
+CLOCK: [2020-08-17 Mon 11:49]--[2020-08-17 Mon 11:54] =>  0:05
+:END:
+***** [X] Create nextjs project
+***** [X] init git
+***** [X] create github repo
+***** [X] initial commit & push
+**** [ ] setup storybook
+:LOGBOOK:
+CLOCK: [2020-08-17 Mon 14:24]
+CLOCK: [2020-08-17 Mon 12:23]--[2020-08-17 Mon 12:56] =>  0:33
+:END:
+**** [ ] Setup easy-peasy
+**** [ ] add `app/index.jsx` folder and file, add index for root page that simply redirects to `/app`
