@@ -1,3 +1,5 @@
+#+PROPERTY: Effort_ALL 0 0:10 0:30 1:00 2:00 3:00 4:00 5:00 6:00 7:00
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
 
 * Project Managment
 ** [ ] MVP
@@ -18,9 +20,37 @@ CLOCK: [2020-08-17 Mon 15:26]--[2020-08-17 Mon 15:33] =>  0:07
 CLOCK: [2020-08-17 Mon 14:24]--[2020-08-17 Mon 15:15] =>  0:51
 CLOCK: [2020-08-17 Mon 12:23]--[2020-08-17 Mon 12:56] =>  0:33
 :END:
+As expected this took a while, thought not as long as I expected.
 **** [X] Setup easy-peasy
 :LOGBOOK:
 CLOCK: [2020-08-17 Mon 20:34]--[2020-08-17 Mon 20:48] =>  0:14
 CLOCK: [2020-08-17 Mon 17:08]--[2020-08-17 Mon 17:18] =>  0:10
 :END:
 **** [X] add `app/index.jsx` folder and file, add index for root page that simply redirects to `/app`
+*** [ ] Auth
+**** [ ] Register view
+***** Contains email, password, and password repeat
+***** [ ] "Successfully registered ..." component
+**** [ ] Register logic
+***** [ ] Auth store
+***** [ ] Validation
+***** [ ] Query back4app
+***** [ ] Store token in store
+***** [ ] Navigate to login view
+***** [ ] "Successfully registered, please log in" message on login view
+**** [ ] Login view
+***** [ ] Box container
+***** [ ] Email textbox
+***** [ ] Password textbox
+***** [ ] Error validation message
+**** [ ] Login logic
+***** [ ] query [[back4app]],
+***** [ ] if is error update [[store]] accoringly
+***** [ ] store token in [[store]] (if success)
+***** [ ] redirect to `root_url/app` (if success)
+**** [ ] Layout
+Layout should be a box in the middle of the screen that contains the login and register boxes.
+***** [ ] Create component that holds the register and login components
+***** [ ] Style that so that it keeps it in the middle
+**** [ ] Load user to store
+Whenever the site is opened, the user should be loaded from the [[parse]] library to the store.
